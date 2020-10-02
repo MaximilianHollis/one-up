@@ -10,6 +10,9 @@ import {
   PricingWrapper,
   PricingHeading,
   PricingContainer,
+} from './Pricing.elements';
+
+import {
   PricingCard,
   PricingCardInfo,
   PricingCardIcon,
@@ -18,7 +21,7 @@ import {
   PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature
-} from './Pricing.elements';
+} from '../Universal/Universal.elements';
 
 function Pricing() {
   return (
