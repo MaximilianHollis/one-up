@@ -1,18 +1,13 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
-import { AiFillThunderbolt } from 'react-icons/ai';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
-import { GiFloatingCrystal } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
 import {
   PricingSection,
   PricingWrapper,
   PricingHeading,
   PricingContainer,
-} from './Pricing.elements';
-
-import {
   PricingCard,
   PricingCardInfo,
   PricingCardIcon,
@@ -21,7 +16,7 @@ import {
   PricingCardLength,
   PricingCardFeatures,
   PricingCardFeature
-} from '../Universal/Universal.elements';
+} from './Pricing.elements';
 
 function Pricing() {
   return (

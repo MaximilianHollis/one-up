@@ -27,6 +27,9 @@ import {
   SocialIcons,
   SocialIconLink
 } from './Footer.elements';
+import {
+  Card 
+} from '../Universal/Universal.elements';
 
 function Footer() {
   return (

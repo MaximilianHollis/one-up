@@ -9,9 +9,11 @@ import {
   TopLine,
   Heading,
   Subtitle,
-  ImgWrapper,
-  Img
 } from './InfoSection.elements';
+import {
+  Img,
+  ImgWrapper
+} from '../Universal/Universal.elements';
 
 function InfoSection({
   primary,
