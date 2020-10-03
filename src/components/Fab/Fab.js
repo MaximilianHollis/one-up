@@ -1,11 +1,12 @@
 import React from 'react';
 import { FabButton } from './Fab.element';
+import { FaArrowUp } from 'react-icons/fa';
 
-function Fab(props) {
+function Fab() {
   return (
     <>
-      <FabButton big fontBig primary={true}>
-        L
+      <FabButton primary={true}>
+        <FaArrowUp />
       </FabButton>
     </>
   );

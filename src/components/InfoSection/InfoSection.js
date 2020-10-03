@@ -28,11 +28,12 @@ function InfoSection({
   img,
   alt,
   imgStart,
-  start
+  start,
+  backgroundImg
 }) {
   return (
     <>
-      <InfoSec lightBg={lightBg}>
+      <InfoSec lightBg={lightBg} backgroundImg={backgroundImg}>
         <Container>
           <InfoRow imgStart={imgStart}>
             <InfoColumn>

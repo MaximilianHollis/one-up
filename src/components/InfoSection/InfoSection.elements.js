@@ -2,6 +2,10 @@ import styled from 'styled-components';
 import { Section} from '../Universal/Universal.elements'
 
 export const InfoSec = styled(Section)`
+  background-Image: ${({ backgroundImg }) => (`url(${backgroundImg})` ? backgroundImg : null)};
+  background-Position: 'center',
+  background-Size: 'cover',
+  background-Repeat: 'no-repeat'
 `;
 
 export const InfoRow = styled.div`
